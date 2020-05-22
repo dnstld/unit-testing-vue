@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <RandomNumber />
+    <LoginForm />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import RandomNumber from '@/components/RandomNumber.vue';
+import LoginForm from '@/components/LoginForm.vue';
 
 export default {
   name: 'Home',
   components: {
-    RandomNumber,
+    LoginForm,
   },
 };
 </script>
